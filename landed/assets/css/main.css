@@ -3,6 +3,10 @@
 
 
 /* my code */
+p.nomargin {
+	margin: 0;
+}
+
 .mapouter {
 	position:relative;
 	text-align:right;

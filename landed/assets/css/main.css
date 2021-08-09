@@ -3546,10 +3546,10 @@ input, select, textarea {
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
+				height: 21em;
 				margin-left: 3em;
 				vertical-align: middle;
-				width: 18em;
+				width: 21em;
 			}
 
 				#banner .content .image img {
@@ -3885,8 +3885,8 @@ input, select, textarea {
 					}
 
 					#banner .content .image {
-						height: 9em;
-						width: 9em;
+						height: 15em;
+						width: 15em;
 					}
 
 		/* Nav */

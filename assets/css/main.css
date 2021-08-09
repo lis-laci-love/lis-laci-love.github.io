@@ -2,11 +2,53 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
 
-/* my code
+/* my code */
 
-e44c65
-ff7700
-*/
+a.image img {
+	opacity: 0.7;
+	filter: alpha(opacity=40);
+}
+
+a.image:hover img {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+.greetings {
+	text-align: left;
+}
+
+#banner #lang-content {
+	padding: 0;
+}
+
+#banner .content .row .greetings .image {
+	border-radius: 100%;
+	display: inline-block;
+	height: 15em;
+	margin: auto;
+	vertical-align: middle;
+	width: 15em;
+}
+
+#banner #lang-content header h2 {
+	margin-top: 1em;
+}
+
+#banner .content #flags {
+	text-align: center;
+	margin-top: 2em;
+}
+
+#banner .content #flags .image {
+	border-radius: 100%;
+	display: inline-block;
+	height: 12em;
+	margin-left: 0;
+	vertical-align: middle;
+	width: 12em;
+}
+
 p.nomargin {
 	margin: 0;
 }
@@ -3546,10 +3588,10 @@ input, select, textarea {
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 21em;
+				height: 18em;
 				margin-left: 3em;
 				vertical-align: middle;
-				width: 21em;
+				width: 18em;
 			}
 
 				#banner .content .image img {

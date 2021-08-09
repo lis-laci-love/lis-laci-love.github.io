@@ -3530,11 +3530,11 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-	body.landing #header {
+	/* body.landing #header {
 		background: transparent;
 		box-shadow: none;
 		position: absolute;
-	}
+	} */
 
 /* Banner */
 

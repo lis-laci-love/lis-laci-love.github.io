@@ -115,6 +115,10 @@ a.image:hover img {
 	#header #nav li.extra {
 		display: none;
 	}
+
+	.mapouter {
+		margin:auto;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -151,7 +155,6 @@ ul.menu {
 	text-align:right;
 	height:200px;
 	width:300px;
-	margin:auto;
 }
 
 .gmap_canvas {

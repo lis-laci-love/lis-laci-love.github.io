@@ -50,7 +50,7 @@
 				'</div>'
 			)
 				.appendTo($body);
-
+			console.log($('#nav').navList());
 		// Panel.
 			$(
 				'<div id="navPanel">' +

@@ -4,6 +4,27 @@
 
 /* my code */
 
+.spotlight.left p, .spotlight.right p {
+	margin: 0 0 0.5em 0;
+}
+
+.spotlight.left h2, .spotlight.right h2, .spotlight.bottom h2 {
+	font-size: 1.75em;
+	line-height: 1em;
+}
+
+.spotlight.left h3, .spotlight.right h3 {
+	font-size: 1.2em;
+}
+
+.spotlight.left h1, .spotlight.left h2, .spotlight.left h3 {
+	margin: 0 0 0.5em 0;
+}
+
+.spotlight.right h1, .spotlight.right h2, .spotlight.right h3 {
+	margin: 0 0 0.5em 0;
+}
+
 #feedback {
 	padding-left: 1em;
 	padding-right: 1em;
@@ -3268,7 +3289,7 @@ input, select, textarea {
 			height: 101%;
 			padding: 6em 3em;
 			top: 0;
-			width: 28em;
+			width: 30em;
 		}
 
 		.spotlight.left .content {
@@ -3763,7 +3784,7 @@ input, select, textarea {
 
 			.spotlight.left .content, .spotlight.right .content {
 				padding: 4.5em 2.5em;
-				width: 25em;
+				width: 27em;
 			}
 
 		/* Wrapper */

@@ -16,6 +16,15 @@
 		<link rel="manifest" href="/site.webmanifest">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<style>
+		/* override the appearing nav panel */
+		a.toggle {
+			display: none;
+		}
+		#navPanel {
+			display: none;
+		}
+	</style>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
 
@@ -29,7 +38,7 @@
 			<div id="lang-content" class="content">
 				<div class="container">
 					<div class="row">
-					<div class="col-6">
+					<div class="col-6 col-12-xsmall">
 						<header>
 						<h2>Choose language<br />
 							Válassz nyelvet<br />
@@ -37,20 +46,20 @@
 						</h2>
 						</header>
 					</div>
-					<div class="col-6 greetings">
+					<div class="col-6 col-12-xsmall greetings">
 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
 					</div>
 					<div id="flags" class="row">
-					<div class="col-4 col-12-small">
+					<div class="col-4 col-12-xsmall">
 						<a href="hu/index.html" class="image" onclick="createCookie('lang','hu',30)"><img src="images/hu.png" alt="Magyar" /></a>
 						<h2><a href="hu/index.html">Magyar</a></h2>
 					</div>
-					<div class="col-4 col-12-small">
+					<div class="col-4 col-12-xsmall">
 						<a href="en/index.html" class="image" onclick="createCookie('lang','en',30)"><img src="images/en.png" alt="English" /></a>
 						<h2><a href="en/index.html">English</a></h2>
 					</div>
-					<div class="col-4 col-12-small">
+					<div class="col-4 col-12-xsmall">
 						<a href="es/index.html" class="image" onclick="createCookie('lang','es',30)"><img src="images/es.png" alt="Español" /></a>
 						<h2><a href="es/index.html">Español</a></h2>
 					</div>
@@ -75,7 +84,7 @@
 				window.onload = function() {
 					var lang = readCookie("lang");
 					if (lang) {
-						window.location.href = "/" + lang + "/index.html";
+						//window.location.href = "/" + lang + "/index.html";
 					}
 				}
 			</script>

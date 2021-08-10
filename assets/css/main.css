@@ -63,6 +63,50 @@ a.image:hover img {
 	width: 12em;
 }
 
+@media screen and (max-width: 736px) {
+
+	.greetings {
+		text-align: center;
+	}
+
+	#banner .content .row .greetings .image {
+		height: 12em;
+		width: 12em;
+	}
+
+	#banner .content #flags .image {
+		height: 6em;
+		width: 6em;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#banner #lang-content header h2 {
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#banner .content .row .greetings .image {
+		height: 6em;
+		width: 6em;
+	}
+
+	#banner #lang-content header h2 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+
+	#lang-content .container {
+		width: 100%;
+		max-width: 100%;
+	}
+
+}
+
+
 p.nomargin {
 	margin: 0;
 }
